@@ -2,7 +2,6 @@ import math
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from model_TSSUSCP_ViT import TSSUSCP_ViT
 
 def _to_2tuple(x, name):
     if isinstance(x, (tuple, list)):
